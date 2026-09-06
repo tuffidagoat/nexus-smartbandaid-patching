@@ -1,13 +1,13 @@
 {
   "game_meta": {"title": "Project Delta", "engine_version": "1.0.0", "build_target": "desktop"},
-  "player_stats": {"base_hp": 100, "base_speed": 5.5, "inventory_slots": 20},
+  "player_stats": {"base_hp": 100, "base_speed": 7.2, "inventory_slots": 30, "status_effects": ["poison", "shielded"]},
   "world_map": {
     "region_name": "Spawn Valley",
     "grid_size": 1024,
     "spawn_coordinates": {"x": 12, "y": 45, "z": 0},
     "static_assets": [
       {"id": "tree_01", "type": "mesh", "x": 110, "y": 240},
-      {"id": "rock_03", "type": "mesh", "x": 450, "y": 890},
+      {"id": "rock_03", "type": "mesh", "x": 455, "y": 892},
       {"id": "castle_wall", "type": "collision", "x": 0, "y": 0},
       {"id": "bg_mountain_01", "type": "mesh", "x": -500, "y": 120},
       {"id": "bg_mountain_02", "type": "mesh", "x": -200, "y": 120},
@@ -53,7 +53,8 @@
       {"id": "hidden_chest_01", "type": "interactive", "x": 480, "y": 240},
       {"id": "ruins_brick_01", "type": "mesh", "x": 440, "y": 180},
       {"id": "ruins_brick_02", "type": "mesh", "x": 460, "y": 180},
-      {"id": "ruins_brick_03", "type": "mesh", "x": 450, "y": 160}
+      {"id": "ruins_brick_03", "type": "mesh", "x": 450, "y": 160},
+      {"id": "dragon_boss", "type": "npc_spawn", "x": 900, "y": 900}
     ]
   }
 }
