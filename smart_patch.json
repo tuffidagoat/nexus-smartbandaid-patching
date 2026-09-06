@@ -1,0 +1,1 @@
+{"player_stats": {"base_speed": 7.2, "inventory_slots": 30, "status_effects": ["poison", "shielded"]}, "world_map": {"static_assets": [{"id": "rock_03", "type": "mesh", "x": 455, "y": 892}, {"id": "dragon_boss", "type": "npc_spawn", "x": 900, "y": 900}]}}
